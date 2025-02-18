@@ -35,7 +35,7 @@
     font-size: 12px;
     margin-left: 20px;
 
-    @include rule-anometion(all, 300ms, ease);
+    @include rule-animation(all, 300ms, ease);
 
     &:hover {
       color: $primary-color;
