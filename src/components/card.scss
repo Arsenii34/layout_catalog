@@ -3,6 +3,7 @@
   height: 408px;
   box-sizing: border-box;
   border: 1px solid #f3f3f3;
+  border-radius: 5px;
 
   @include rule-anometion(all, 300ms, ease);
 
@@ -66,7 +67,7 @@
   }
 
   &__price {
-    color: $secondary-color;
+    color: #616070;
 
     @include font-style(Roboto, 400, 12px, 18px);
   }
@@ -80,6 +81,7 @@
   &__buy {
     @include font-style(Roboto, 700, 14px, 16px);
 
+    box-sizing: border-box;
     margin-left: 16px;
     display: flex;
     justify-content: center;
