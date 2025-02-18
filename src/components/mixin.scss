@@ -5,6 +5,6 @@
   line-height: $height;
 }
 
-@mixin rule-anometion($quantity, $time, $kind) {
+@mixin rule-animation($quantity, $time, $kind) {
   transition: $quantity $time $kind;
 }
